@@ -1,0 +1,36 @@
+body{margin: 10px; background-image: url("../imagenes/espacio.jpg"); background-size:cover;}
+
+.container{
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.mensaje{
+    background-color: rgb(37, 87, 116);
+    color: brown;
+    font-size: 20px;
+    height: 10px;
+    padding: 20px;
+    width: 660px;
+}
+
+#canva{
+    border: rgb(175, 30, 30) 2px solid;
+}
+
+.boton{
+    color: rgb(175, 30, 30);
+    font-size: 20px;
+    background-color: rgb(5, 9, 14);
+    cursor: pointer;
+    border-radius: 10px;
+    border: 3px solid rgb(47, 35, 58);
+    box-shadow: 0 0 10px rgb(175, 30, 30);
+    display:inline 
+}
+
+.boton:hover{
+    background-color: rgb(37, 87, 116);
+    color: rgb(114, 251, 206);
+}
